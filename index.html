@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.outer {
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  height: 10%;
+  background-color: #232f3e;
+  color: white;
+}
+main {
+  height: 90%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triangle-u{
+ 
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(195, 127, 38);
+  /* color:antiquewhite; */
+  margin: -25px;
+}
+.triangle-d{
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid rgb(235, 191, 133);
+  /* margin-left: -25px; */
+}
+.triangle-l{
+  width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 100px solid rgb(235, 191, 133);
+ 
+}
+.lower{
+  position: relative;
+}
+.triangle-id{
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 100px solid rgba(216, 166, 99, 0.966);
+  position:absolute;
+  top: 0px;
+  left: 50px;
+ 
+}
+.box{
+  border:2px solid rgb(195, 127, 38);
+  padding: 68px;
+  scale: 2;
+}
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <nav class="flex">
+            <h1>Q6) MINIMALISTIC DIAMOND</h1>
+            
+        </nav>
+        <main class="flex">
+            <div class="box">
+                <div class="upper flex">
+                    <div class="triangle-u"></div><div class="triangle-d"></div><div class="triangle-u"></div><div class="triangle-d"></div><div class="triangle-u"></div>
+                </div>
+                <div class="lower">
+
+                    <div class="triangle-l">
+                       
+                    </div>
+                    <div class="triangle-id">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+</body>
+</html>
